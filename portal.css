@@ -1,0 +1,27 @@
+body
+{
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   color: #000000;
+   background-color: #FFFFFF;
+}
+a
+{
+   color: #00008B;
+}
+a:active
+{
+   color: #E6E6FA;
+}
+a:hover
+{
+   color: #00008B;
+}
+h1, h2, h3, h4, h5, h6
+{
+    line-height: 1.3em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #000000;
+    background-color: #ffffff;
+}

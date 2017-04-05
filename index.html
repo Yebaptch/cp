@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="Cache-Control" content="no-cache">
+ <meta http-equiv="Cache-control" content="no-store">
+ <meta http-equiv="Pragma" content="no-cache">
+ <meta http-equiv="Expires" content="0">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="portal.css">
+ <title>External Captive Portal with Username</title>
+ </head>
+ <body>
+ Welcome to Yebaptch!
+ <form method="POST" action="https://securelogin.arubanetworks.com/swarm.cgi">
+ <input type="hidden" name="cmd" value="authenticate" />
+ User Name: <br/> <input type="text" name="user" id="user"/>
+ <br/>
+ Password: <br/> <input type="password" name="password" id="password"/>
+ <br/>
+ <input type="submit" value="Login"/>
+ </form>
+ </body>
+</html>
